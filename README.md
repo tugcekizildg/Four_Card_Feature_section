@@ -5,8 +5,10 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Screenshot
 
-![Desktop Design](screenshotdesktop.png)
+![Desktop Design](screenshotdesktop![screenshotdesktop](https://github.com/tugcekizildg/Four_Card_Feature_section/assets/141547888/9f8d84c1-6a9d-4621-ae20-0a4705bffeb1)
+.png)
 ![Mobile Design](screenshotmobiledesign.png)
+![screenshotmobiledesign](https://github.com/tugcekizildg/Four_Card_Feature_section/assets/141547888/2cc7b5a6-9fdc-4488-8c5e-342a7ed2e784)
 
 
 ### Links
