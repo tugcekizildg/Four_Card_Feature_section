@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+header {
+    text-align: center;
+
+    h1 {
+        font-weight: 200;
+        color: hsl(234, 12%, 34%);
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+    }
+
+    p {
+        font-weight: 400;
+        max-width: 600px;
+        margin: 0 auto;
+        color: hsl(229, 6%, 66%);
+        margin-top: 20px;
+        line-height: 1.7;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin-top: 72px;
+
+    .cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    .card-items {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+        text-align: right;
+
+        &.cyan {
+            border-top: 4px solid hsl(180, 62%, 55%);
+            align-self: center;
+        }
+
+        &.red {
+            border-top: 4px solid hsl(0, 78%, 62%);
+        }
+
+        &.orange {
+            border-top: 4px solid hsl(34, 97%, 64%);
+        }
+
+        &.blue {
+            border-top: 4px solid hsl(212, 86%, 64%);
+            align-self: center;
+        }
+    }
+
+    .card-content {
+        text-align: left;
+
+        h2 {
+            font-weight: 600;
+            color: hsl(234, 12%, 34%);
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: hsl(229, 6%, 66%);
+            font-size: 14px;
+            line-height: 1.8;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 13px;
+    }
+
+    header h1,
+    header h2 {
+        font-size: 20px;
+    }
+}
